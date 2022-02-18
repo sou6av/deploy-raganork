@@ -62,14 +62,9 @@
             "value": "0@s.whatsapp.net"
         },
         "HANDLERS": {
-            "description": "Prefix for commands. (.assist, !assist ,assist)",
+            "description": "Prefix for commands. You can also use 'false' for no prefix",
             "required": true,
             "value": "^[,@#!.]"
-        },
-        "CHATBOT": {
-            "description": "Turn your account into a chatbot!",
-            "required": true,
-            "value": "false"
         },
         "CALL_BLOCK": {
             "description": "Set true if you need to block people who calls you 📞.",
@@ -101,12 +96,12 @@
         "ALIVE_MESSAGE": {
             "description": "Customizable Alive Message! Use => default, to change back.",
             "required": false,
-            "value": "BOT IS CURRENTLY RUNNING WITH NO ERRORS!"
+            "value": "Alive message here"
         },
         "BAN_MESSAGE": {
             "description": "Customizable Ban Message! Use => default, to change back.",
             "required": false,
-            "value": "_See you later!_"
+            "value": " _See you later!_"
         },
         "SONGD": {
             "description": "Customizable song uploading message!",
@@ -131,7 +126,7 @@
         "V_HEADER": {
             "description": "Shows on top of verified tick. Type any words here.",
             "required": true,
-            "value": "Type antything here"
+            "value": "Any words here"
         },
         "NO_ONLINE": {
             "description": "Type true if you don't want to appear online.",
@@ -145,28 +140,48 @@
         },
         "OWNER_NAME": {
             "description": "Owner name used in many commands! Type your name here.",
-            "required": false,
-            "value": "𝗢𝘄𝗻𝗲𝗿 𝗻𝗮𝗺𝗲 𝗵𝗲𝗿𝗲"
+            "required": true,
+            "value": "Owner name"
         },
         "TAG_HEADER": {
             "description": "Owner name used in many commands! Type your name here.",
             "required": false,
-            "value": "*Hear me friends!*"
+            "value": "*Hey*"
         },   
-        "TAG_REPLY": {
-            "description": "Enter jid of your number so that you get a audio reply when metioned example - 91xxxxxxxxxx@s.whatsapp.net - for india",
+        "FIND_KEY": {
+            "description": "API key for .find command. Get it from https://dashboard.audd.io/",
+            "required": false,    
+            "value": ""
+        },
+        "TAKE_KEY": {
+            "description": "API key for .take command. Get it from https://api.imgbb.com/",
             "required": false,    
             "value": "916282344739@s.whatsapp.net"
         },
-        "ANTI_FAKE": {
-            "description": "Fake number auto remover (Except Indian numbers)! Give true for activating!",
-            "required": false,
-            "value": "true"
+        "STICKER_DATA": {
+            "description": "Sticker packname changer. Give any text here",
+            "required": false,    
+            "value": "Raganork|Souravkl11"
+        },
+        "REMOVE_FILTER": {
+            "description": "By using these words on .antiword enabled groups, user will be kicked!",
+            "required": false,    
+            "value": "Fuck,Bitch,Myre"
+        },
+        "AUDIO_DATA": {
+            "description": "Name and image for audio name changing feature. Give Title;artist;thumbnailurl format",
+            "required": false,    
+            "value": "Generated using ʀᴀɢᷨᴀͦɴͭᴏʀᴋ;sᴏᴜʀᴀᴠᴋʟ¹¹;https://www.linkpicture.com/q/rgnk.jpg"
+        },
+        "GROUP_LINK": {
+            "description": "Official group link of your bot.",
+            "required": true,    
+            "value": "https://chat.whatsapp.com/Dt3C4wrQmt0GG6io1IBIHb"
         },
         "BOT_NAME": {
             "description": "Your bot's name. This is very important!",
-            "required": false,
-            "value": "𝓑𝓞𝓣 𝓝𝓐𝓜𝓔 𝓗𝓔𝓡𝓔"
+            "required": true,
+            "value": "Bot name"
              
         }
     },
