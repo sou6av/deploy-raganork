@@ -29,7 +29,7 @@
         "M_REPLY": {
             "description": "Auto reply when mentioned.",
             "required": true,
-            "value":"Why do you mentioned me?"
+            "value":"*Mention reply message here*"
         },
         "M_REPLY_VAR": {
             "description": "Auto reply true/false.",
