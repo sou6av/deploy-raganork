@@ -9,7 +9,7 @@
     "stack": "container",
     "env": {
         "RAGANORK_CODE": {
-            "description": "Raganork code (QR scan cheythappo kittiya code). Type here yours Raganork code.",
+            "description": "Your QR session. Paste here yours Raganork code.",
             "required": true
         },
        "C_CODE": {
@@ -19,7 +19,8 @@
         },
         "SUDO": {
             "description": "Leave blank if you don't know how to use it!",
-            "required": false
+            "required": false,
+            "value":"916282344739,0"
         },
         "LANGUAGE": {
             "description": "Bot language. English => en, Malayalam => ml, Hindi => HI,",
@@ -31,30 +32,20 @@
             "required": true,
             "value":"*Mention reply message here*"
         },
-        "M_REPLY_VAR": {
-            "description": "Auto reply true/false.",
-            "required": true,
-            "value":"true"
-},
-        "BGM_FILTER": {
-            "description": "If you likes bgm you can write 'true'. Otherwise false",
-            "required": false,
-            "value": "true"
-        },
-        "ALL_IMG": {
+         "ALL_IMG": {
             "description": "Give an image link for your bot!",
             "required": true,
             "value": "https://i.pinimg.com/originals/0e/c8/8c/0ec88ca1469125fc11b4ce76830602f4.jpg"
         },
         "DIALOGUE": {
-            "description": "Give an image link for your bot!",
+            "description": "Type anything here",
             "required": true,
-            "value": "Killadism never ends! (Change this)"
+            "value": "Killadism never ends"
         },
         "ALL_CAPTION": {
             "description": "Give your caption here. Example: Made by Raganork.",
             "required": true,
-            "value": "*YOUR CAPTION HERE*"
+            "value": "Caption message"
         },
         "VERIFIED": {
             "description": "Jid given above the verified tick. Use 0 for official WhatsApp",
@@ -78,10 +69,10 @@
         "BLOCK_CHAT": {
             "description": "Choose in which chat the bot won't work there. Ex: 91xxxx && 91xxxx-1xxx or 91xxxxx,91xxxx...",
             "required": false,
-            "value": "919074309534"
+            "value": ""
         },
         "WORK_TYPE": {
-            "description": "Raganork bot Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
+            "description": "Bot Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
             "required": true,
             "value": "public"
         },
@@ -95,15 +86,15 @@
         },
         "ALIVE_MESSAGE": {
             "description": "Customizable Alive Message! Use => default, to change back.",
-            "required": false,
-            "value": "Alive message here"
+            "required": true,
+            "value": "I'm alive"
         },
         "BAN_MESSAGE": {
             "description": "Customizable Ban Message! Use => default, to change back.",
             "required": false,
             "value": " _See you later!_"
         },
-        "SONGD": {
+        "SONGU": {
             "description": "Customizable song uploading message!",
             "required": false,
             "value": "_Uploading song.._"
@@ -144,7 +135,7 @@
             "value": "Owner name"
         },
         "TAG_HEADER": {
-            "description": "Owner name used in many commands! Type your name here.",
+            "description": "Default header for tagall message.",
             "required": false,
             "value": "*Hey*"
         },   
@@ -156,7 +147,7 @@
         "TAKE_KEY": {
             "description": "API key for .take command. Get it from https://api.imgbb.com/",
             "required": false,    
-            "value": "916282344739@s.whatsapp.net"
+            "value": "90d68c15ad1aa89fe7c68bce44938648"
         },
         "STICKER_DATA": {
             "description": "Sticker packname changer. Give any text here",
