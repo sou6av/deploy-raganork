@@ -1,6 +1,6 @@
 {
-    "name": "Raganork",
-    "description": "Raganork bot - Extra featured, fully customisable WhatsApp Public/User bot.",
+    "name": "Raganork MD",
+    "description": "multi device based WhatsApp Public/User bot.",
     "logo": "https://www.linkpicture.com/q/rgnk.jpg",
     "keywords": ["WhatsApp", "Userbot", "Raganork", "WhatsAsena", "bot", "api", "ai"],
     "repository": "https://github.com/souravkl11/Raganork",
@@ -11,6 +11,16 @@
         "USERNAME": {
             "description": "Username of md",
             "required": true
+        },
+        "HANDLERS": {
+            "description": "Prefix of commands. Can be also false",
+            "required": true,
+            "value":"^[.,]"
+        },
+       "MODE": {
+            "description": "Private or public",
+            "required": true,
+            "value":"private"
         },
        
         "PASSWORD": {
