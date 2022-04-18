@@ -9,7 +9,7 @@
     "stack": "container",
     "env": {
         "USERNAME": {
-            "description": "Username of md",
+            "description": "Username of md account",
             "required": true
         },
         "HANDLERS": {
@@ -17,14 +17,34 @@
             "required": true,
             "value":"^[.,]"
         },
-       "MODE": {
+       "HEROKU_API_KEY": {
+            "description": "For updating bot and setting vars remotely",
+            "required": true,
+            "value":""
+        },
+        "HEROKU_APP_NAME": {
+            "description": "Exact name which you gave at the top",
+            "required": true,
+            "value":""
+        },
+        "STICKER_DATA": {
+            "description": "Name of stickers (take)",
+            "required": true,
+            "value":"ʀᴀɢᷨᴀͦɴͭᴏʀᴋ"
+        },
+        "AUDIO_DATA": {
+            "description": "Name of audio (take)",
+            "required": true,
+            "value":"private"
+        },
+        "MODE": {
             "description": "Private or public",
             "required": true,
             "value":"private"
         },
        
         "PASSWORD": {
-            "description": "Password of md",
+            "description": "Password of md account",
             "required": true
              
         }
