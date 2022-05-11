@@ -8,14 +8,25 @@
     "success_url": "https://bit.ly/Raganork",
     "stack": "container",
     "env": {
-        "USERNAME": {
-            "description": "Username of md account",
-            "required": true
-        },
         "HANDLERS": {
             "description": "Prefix of commands. Can be also false",
             "required": true,
-            "value":"^[.,]"
+            "value":".,"
+        },
+        "ANTILINK_WARN": {
+            "description": "Groups for antilink (JIDS)",
+            "required": true,
+            "value":"jid,jid"
+        },
+        "READ_MESSAGES": {
+            "description": "Bot will read all messages. Can be also false",
+            "required": true,
+            "value":"false"
+        },
+        "READ_COMMAND": {
+            "description": "Bot will read all commands (blue tick). Can be also false",
+            "required": true,
+            "value":"true"
         },
        "HEROKU_API_KEY": {
             "description": "For updating bot and setting vars remotely",
@@ -32,19 +43,43 @@
             "required": true,
             "value":"ʀᴀɢᷨᴀͦɴͭᴏʀᴋ"
         },
-        "AUDIO_DATA": {
-            "description": "Name of audio (take)",
+        "TAKE_KEY": {
+            "description": "API key from imgbb.com",
             "required": true,
-            "value":"private"
+            "value":".,"
+        },
+        "CHATBOT": {
+            "description": "AI chatbot",
+            "required": true,
+            "value":"off"
+        },
+        "BOT_NAME": {
+            "description": "Name of AI chatbot",
+            "required": true,
+            "value":"Raganork"
+        },
+        "AUDIO_DATA": {
+            "description": "Name of audio (take) name;name;image(url)",
+            "required": true,
+            "value":"ʀᴀɢᷨᴀͦɴͭᴏʀᴋ;ʀᴀɢᷨᴀͦɴͭᴏʀᴋ;https://2.img-dpreview.com/files/p/E~C1000x0S4000x4000T1200x1200~articles/3925134721/0266554465.jpeg"
         },
         "MODE": {
             "description": "Private or public",
             "required": true,
             "value":"private"
         },
-       
-        "PASSWORD": {
-            "description": "Password of md account",
+        "SUDO": {
+            "description": "These numbers can control your bot. seperate with commas",
+            "required": true,
+            "value":"919074309534"
+        },
+        "ALIVE": {
+            "description": "Alive message {image/link}, {sender} can also be used",
+            "required": true,
+            "value":"```I am alive since {uptime}```"
+        },
+       "SESSION": {
+            "description": "Your MD session",
             "required": true
              
         }
