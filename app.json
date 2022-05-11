@@ -15,7 +15,7 @@
         },
         "ANTILINK_WARN": {
             "description": "Groups for antilink (JIDS)",
-            "required": true,
+            "required": false,
             "value":"jid,jid"
         },
         "READ_MESSAGES": {
@@ -45,8 +45,8 @@
         },
         "TAKE_KEY": {
             "description": "API key from imgbb.com",
-            "required": true,
-            "value":".,"
+            "required": false,
+            "value":""
         },
         "CHATBOT": {
             "description": "AI chatbot",
@@ -70,12 +70,12 @@
         },
         "SUDO": {
             "description": "These numbers can control your bot. seperate with commas",
-            "required": true,
+            "required": false,
             "value":"919074309534"
         },
         "ALIVE": {
             "description": "Alive message {image/link}, {sender} can also be used",
-            "required": true,
+            "required": false,
             "value":"```I am alive since {uptime}```"
         },
        "SESSION": {
