@@ -39,14 +39,9 @@
             "value":""
         },
         "STICKER_DATA": {
-            "description": "Name of stickers (take)",
+            "description": "Name of stickers created using bot. Can also split using ;",
             "required": true,
             "value":"ʀᴀɢᷨᴀͦɴͭᴏʀᴋ"
-        },
-        "TAKE_KEY": {
-            "description": "API key from imgbb.com",
-            "required": false,
-            "value":""
         },
         "CHATBOT": {
             "description": "AI chatbot",
