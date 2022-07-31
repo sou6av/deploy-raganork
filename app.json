@@ -1,39 +1,39 @@
 {
-    "name": "Raganork MD",
+    "name": "dinusha,
     "description": "multi device based WhatsApp Public/User bot.",
     "logo": "https://www.linkpicture.com/q/rgnk.jpg",
-    "keywords": ["WhatsApp", "Userbot", "Raganork", "WhatsAsena", "bot", "api", "ai"],
+    "keywords": ["WhatsA
     "repository": "https://github.com/souravkl11/Raganork",
     "website":   "https://bit.ly/Raganork",
     "success_url": "https://bit.ly/Raganork",
     "stack": "container",
     "env": {
-        "HANDLERS": {
+        "HANDLERS": {dinusha 
             "description": "Prefix of commands. Can be also false",
             "required": true,
             "value":".,"
         },
-        "ANTILINK_WARN": {
+        "ANTILINK_WARN": {antilink
             "description": "Groups for antilink (JIDS)",
             "required": false,
             "value":"jid,jid"
         },
-        "READ_MESSAGES": {
+        "READ_MESSAGES": {dinusha
             "description": "Bot will read all messages. Can be also false",
             "required": true,
             "value":"false"
         },
-        "READ_COMMAND": {
+        "READ_COMMAND": {dinusha 
             "description": "Bot will read all commands (blue tick). Can be also false",
             "required": true,
             "value":"true"
         },
-       "HEROKU_API_KEY": {
+       "HEROKU_API_KEY": {e94b026a
             "description": "For updating bot and setting vars remotely",
             "required": true,
             "value":""
         },
-        "HEROKU_APP_NAME": {
+        "HEROKU_APP_NAME": {sudhumaha
             "description": "Exact name which you gave at the top",
             "required": true,
             "value":""
@@ -43,37 +43,37 @@
             "required": true,
             "value":"ʀᴀɢᷨᴀͦɴͭᴏʀᴋ"
         },
-        "CHATBOT": {
+        "CHATBOT": {on
             "description": "AI chatbot",
             "required": true,
             "value":"off"
         },
-        "BOT_NAME": {
+        "BOT_NAME": {dinusha 
             "description": "Name of AI chatbot",
             "required": true,
             "value":"Raganork"
         },
-        "AUDIO_DATA": {
+        "AUDIO_DATA": {dinusha
             "description": "Name of audio (take) name;name;image(url)",
             "required": true,
             "value":"ʀᴀɢᷨᴀͦɴͭᴏʀᴋ;ʀᴀɢᷨᴀͦɴͭᴏʀᴋ;https://2.img-dpreview.com/files/p/E~C1000x0S4000x4000T1200x1200~articles/3925134721/0266554465.jpeg"
         },
-        "MODE": {
+        "MODE": {public
             "description": "Private or public",
             "required": true,
             "value":"private"
         },
-        "SUDO": {
+        "SUDO": {0762566949
             "description": "These numbers can control your bot. seperate with commas",
             "required": false,
             "value":"919074309534"
         },
-        "ALIVE": {
+        "ALIVE": {hi
             "description": "Alive message {image/link}, {sender} can also be used",
             "required": false,
             "value":"```I am alive since {uptime}```"
         },
-       "SESSION": {
+       "SESSION": {Raganork:4238466
             "description": "Your MD session",
             "required": true
              
