@@ -1,11 +1,11 @@
 {
-    "name": "Raganork MD",
-    "description": "multi device based WhatsApp Public/User bot.",
-    "logo": "https://www.linkpicture.com/q/rgnk.jpg",
-    "keywords": ["WhatsApp", "Userbot", "Raganork", "WhatsAsena", "bot", "api", "ai"],
-    "repository": "https://github.com/souravkl11/Raganork",
-    "website":   "https://bit.ly/Raganork",
-    "success_url": "https://bit.ly/Raganork",
+    "name": "rgnk wabot",
+    "description": "WhatsApp public/user bot",
+    "logo": "",
+    "keywords": ["WhatsApp"],
+    "repository": "https://github.com/souravkl11/raganork-md",
+    "website":   "https://raganork.ml",
+    "success_url": "https://raganork.ml",
     "stack": "container",
     "env": {
         "HANDLERS": {
@@ -13,10 +13,10 @@
             "required": true,
             "value":".,"
         },
-        "ANTILINK_WARN": {
-            "description": "Groups for antilink (JIDS)",
-            "required": false,
-            "value":"jid,jid"
+        "MULTI_HANDLERS": {
+            "description": "Use prefix as given handlers and also without handlers",
+            "required": true,
+            "value":"false"
         },
         "READ_MESSAGES": {
             "description": "Bot will read all messages. Can be also false",
@@ -41,7 +41,7 @@
         "STICKER_DATA": {
             "description": "Name of stickers created using bot. Can also split using ;",
             "required": true,
-            "value":"ʀᴀɢᷨᴀͦɴͭᴏʀᴋ"
+            "value":"Raganork pack;Author name"
         },
         "CHATBOT": {
             "description": "AI chatbot",
@@ -56,7 +56,7 @@
         "AUDIO_DATA": {
             "description": "Name of audio (take) name;name;image(url)",
             "required": true,
-            "value":"ʀᴀɢᷨᴀͦɴͭᴏʀᴋ;ʀᴀɢᷨᴀͦɴͭᴏʀᴋ;https://2.img-dpreview.com/files/p/E~C1000x0S4000x4000T1200x1200~articles/3925134721/0266554465.jpeg"
+            "value":"Raganork;Souravkl11;https://i.imgur.com/YchATyT.jpeg"
         },
         "MODE": {
             "description": "Private or public",
@@ -66,17 +66,46 @@
         "SUDO": {
             "description": "These numbers can control your bot. seperate with commas",
             "required": false,
-            "value":"919074309534"
+            "value":""
+        },
+        "BLOCK_CHAT": {
+            "description": "Block bot in specific groups, enter jids here sepereated with commas",
+            "required": false,
+            "value":""
+        },
+        "REJECT_CALLS": {
+            "description": "Auto reject calls, true/false",
+            "required": false,
+            "value":"false"
+        },
+        "ALLOWED": {
+            "description": "Country codes allowed by antifake",
+            "required": false,
+            "value":"91,48"
+        },
+        "WARN": {
+            "description": "Warn limit",
+            "required": false,
+            "value":"3"
+        },
+        "LANGUAGE": {
+            "description": "Available languages: english,manglish,turkish",
+            "required": false,
+            "value":"english"
+        },
+        "AUTO_READ_STATUS": {
+            "description": "View status updates automatically",
+            "required": false,
+            "value":"true"
         },
         "ALIVE": {
-            "description": "Alive message {image/link}, {sender} can also be used",
+            "description": "Alive message, customize your alive msg by looking wiki",
             "required": false,
-            "value":"```I am alive since {uptime}```"
+            "value":"_Bot is alive since {uptime}_"
         },
        "SESSION": {
-            "description": "Your MD session",
-            "required": true
-             
+            "description": "Your session code, obtained by scanning QR",
+            "required": true         
         }
     },
     "addons": [{
