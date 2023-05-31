@@ -1,5 +1,5 @@
 {
-    "name": "rgnk wabot",
+    "name": "csms wabot",
     "description": "WhatsApp public/user bot",
     "logo": "",
     "keywords": ["WhatsApp"],
@@ -56,7 +56,7 @@
         "AUDIO_DATA": {
             "description": "Name of audio (take) name;name;image(url)",
             "required": true,
-            "value":"Raganork;Souravkl11;https://i.imgur.com/YchATyT.jpeg"
+            "value":"cosmoss;csms;https://i.imgur.com/MiS1pLJ.jpg"
         },
         "MODE": {
             "description": "Private or public",
